@@ -1,0 +1,43 @@
+.pv{
+    width: 30%;
+    height: 40vh;
+    margin: 20px 10px;
+    border: 2px solid rgb(243, 242, 242);
+    ;
+    border-radius:10px 10px 0px 0px;
+    overflow:hidden;
+    .p-brow{
+        position: sticky;
+z-index: 22;
+        height:20px;
+        background-color: rgb(243,242,242);
+  display: flex;
+align-items: center;
+        .p-circle{
+            width: 6px;
+            height: 6px;
+            border-radius:50%;
+            background-color: aqua;
+            margin: 4px;
+        }
+    }
+a{
+    img{
+        width:100%;
+        transition:all 5s ease;
+        &:hover{
+            transform: translateY(-50%);
+
+        }
+
+    }
+}
+
+}
+
+@media screen and (max-width:480px){
+    .pv{
+        width: 40%;
+        height: 20vh;
+    }
+}
