@@ -1,5 +1,5 @@
 import React from 'react'
-import "./intro.scss"
+import "./intro.css"
 import me from "../img/me.png"
 
 const intro = () => {

@@ -11,8 +11,9 @@
   display: flex;
   align-items: center;
   justify-content: space-around;
+}
 
-  .t-icon{
+.t-icon{
     width: 15px;
     height: 15px;
   }
@@ -24,4 +25,3 @@
     position: absolute;
     cursor: pointer;
   }
-}

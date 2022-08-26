@@ -1,0 +1,122 @@
+.c{
+    height: 100vh;
+    position: relative;
+}
+.c-bg{
+    width: 20px;
+    height: 100%;
+    background-color: #56b256;
+    position: absolute;
+}
+
+.c-wrap {
+    display: flex;
+
+    align-items: center;
+}
+
+.c-left {
+    display: flex;
+    flex-direction: column;
+
+    flex: 1;
+}
+
+.c-title {
+    font-size: 60px;
+    width: 80%;
+    padding-left: 3rem;
+  }
+
+  .c-info {
+    display: flex;
+    flex-direction: column;
+  }
+
+
+  .c-team {
+    margin: 10px 0px;
+    font-weight: 200;
+    display: flex;
+    align-items: center;
+    padding-left: 3rem;
+  }
+
+  .c1-icon {
+    width: 30px;
+    height: 30px;
+    margin-right: 20px;
+  }
+
+  .c-right {
+    display: block;
+    text-align: center;
+    flex: 1;
+    flex-wrap: wrap;
+
+
+}
+
+.c-desc {
+    font-weight: 200;
+  }
+
+  .form {display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  input {
+       width: 50%;
+      height: 50px;
+      border: none;
+      border-bottom: 1px solid black;
+      margin: 10px 0px;
+      padding-left:  10px 10px;
+    }
+
+    .txt {
+      padding-top: 10px;
+           height: 150px;
+         width: 50%;
+          text-align: center;
+
+          display: flex;
+        }
+
+        button {
+          margin-top: 10px;
+          border: none;
+            padding: 5px;
+            background-color: #59b256;
+            color: white;
+            font-weight: 500;
+            cursor: pointer;
+          }
+
+          @media screen and (max-width: 480px) {
+            .c-wrap {
+                flex-direction: column;
+                padding: 0px;
+            }
+            .c-title {
+                font-size: 30px;
+                padding-top: 10px;
+                padding-bottom: 10px;
+              }
+              .c-team {
+                  margin:0px 0px;
+                width:70%;
+                padding-bottom: 9px;              }
+              .c-desc{
+              display: none;
+            }
+            .txt{
+                height: 8vh;
+            }
+            .form{
+         width: 80vw;
+            }
+
+          }
+

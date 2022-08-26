@@ -4,7 +4,7 @@ import Cont from "./compos/cont/Cont";
 import Intro from "./compos/Intro/Intro";
 import Toggle from "./compos/toggle/Toggle"
 import ProductList from "./compos/ProductLIst/ProductList"
-import "./main.scss"
+import "./main.css"
 import {  ThemeContext } from "./Context";
 
 function App() {
